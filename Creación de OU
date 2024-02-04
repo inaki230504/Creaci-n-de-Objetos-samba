@@ -1,11 +1,27 @@
 "OU Deparatemento"
 samba-tool ou create ‘OU=Departamento,DC=tir-smc-comp,DC=mylocal’ –description=’OU de los departamentos’
+
 "OU Comite de acceso"
 samba-tool ou create ‘OU=Comite-de-accceso,OU=Departamento,DC=tir-smc-comp,DC=mylocal’ –description=’Deparatemento del comite de acceso’ 
+
 "OU Visitas Guiadas"
 samba-tool ou create ‘OU=Visitas-guiadas,OU=Departamento,DC=tir-smc-comp,DC=mylocal’ –description=’Deparatemento de Visitas Guiadas’ 
+
 "OU Procesos de evaluacion"
 samba-tool ou create ‘OU=Procesos-de-evaluacion,OU=Departamento,DC=tir-smc-comp,DC=mylocal’ –description=’Deparatemento de Procesos de evaluacion'
+
 "OU Administracion de sisteams"
 samba-tool ou create ‘OU=Administracion-de-sistemas,OU=Departamento,DC=tir-smc-comp,DC=mylocal’ –description=’Deparatemento de Administracion de sistemas'
+
+"OU Comite de acceso para equipos"
+samba-tool ou create ‘OU=Comite-acceso-equipos,OU=Comite-de-accceso,OU=Departamento,DC=tir-smc-comp,DC=mylocal’ –description=’Equipos del departamento del Comite de acceso’ 
+
+"OU Visitas Guiadas para equipos"
+samba-tool ou create ‘OU=Visitas-guiadas-equipos,OU=Visitas-guiadas,OU=Departamento,DC=tir-smc-comp,DC=mylocal’ –description=’Equipos del departamento de Visitas Guiadas’ 
+
+"OU Procesos de evaluacion para equipos"
+samba-tool ou create ‘OU=Procesos-evaluacion-equipos,OU=Procesos-de-evaluacion,OU=Departamento,DC=tir-smc-comp,DC=mylocal’ –description=’Equipos del departamento de Procesos de evaluacion'
+
+"OU Administracion de sisteams para equipos"
+samba-tool ou create ‘OU=Administracion-de-sistemas,OU=Departamento,DC=tir-smc-comp,DC=mylocal’ –description=’Equipos del departamento de Administracion de sistemas'
 
