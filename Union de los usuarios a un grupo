@@ -8,4 +8,4 @@ samba-tool group addmembers GGVisitas-guiadas SALABAUS
 samba-tool group addmembers GGProcesos-evaluacion PGOMISZ
 
 #Unión del usuario PVALENCIAR al grupo GGAdministracion-sistemas
-samba-tool group addmembers GGComite-acceso PVALENCIAR
+samba-tool group addmembers GGAdministracion-sistemas PVALENCIAR
