@@ -1,0 +1,11 @@
+#Unión del usuario LNAVARROR al grupo GGComite-acceso
+samba-tool group addmembers GGComite-acceso LNAVARROR
+
+#Unión del usuario SALABUS al grupo GGVisitas-guiadas
+samba-tool group addmembers GGVisitas-guiadas SALABUS
+
+#Unión del usuario PGOMISZ al grupo GGProcesos-de-evaluacion
+samba-tool group addmembers GGProcesos-evaluacion PGOMISZ
+
+#Unión del usuario PVALENCIAR al grupo GGAdministracion-sistemas
+samba-tool group addmembers GGComite-acceso PVALENCIAR
