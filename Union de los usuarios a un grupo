@@ -2,7 +2,7 @@
 samba-tool group addmembers GGComite-acceso LNAVARROR
 
 #Unión del usuario SALABUS al grupo GGVisitas-guiadas
-samba-tool group addmembers GGVisitas-guiadas SALABUS
+samba-tool group addmembers GGVisitas-guiadas SALABAUS
 
 #Unión del usuario PGOMISZ al grupo GGProcesos-de-evaluacion
 samba-tool group addmembers GGProcesos-evaluacion PGOMISZ
