@@ -1,0 +1,11 @@
+#Usuario LNAVARROR de Comite-de-acceso
+sudo samba-tool user create LNAVARROR UbunAdmin2023 --must-change-at-next-login --userou='OU=Comite-de-acceso,OU=Departamento' --home-directory=/home/LNAVARROR --given-name='Luis Navarro Ruiz' --surname="Navarro" --mail=lnavarror@tir-smc-comp.mylocal --department="Comite-de-acceso" --login-shell=/bin/bash
+
+#Usuario SALABAUS de Visitas-guiadas
+sudo samba-tool user create SALABAUS UbunAdmin2023 --must-change-at-next-login --userou='OU=Visitas-guiadas,OU=Departamento' --home-directory=/home/SALABAUS --given-name='Susana Alabau Sancho' --surname="Alabu" --mail=salabaus@tir-smc-comp.mylocal --department="Visitas-guiadas" --login-shell=/bin/bash
+
+#Usuario PGOMISZ de Procesos-de-evaluacion
+sudo samba-tool user create PGOMISZ UbunAdmin2023 --must-change-at-next-login --userou='OU=Procesos-de-evaluacion,OU=Departamento' --home-directory=/home/PGOMISZ --given-name='Pedro Gomis Zambujo' --surname="Gomis" --mail=pgomisz@tir-smc-comp.mylocal --department="Procesos-de-evaluacion" --login-shell=/bin/bash
+
+#Usuario PVALENCIAR de Administracion-de-sistemas
+sudo samba-tool user create PVALENCIAR UbunAdmin2023 --must-change-at-next-login --userou='OU=Administracion-de-sistemas,OU=Departamento' --home-directory=/home/PVALENCIAR --given-name='Piedad Valencia Ruiz' --surname="Valencia" --mail=PVALENCIAR@tir-smc-comp.mylocal --department="Administracion-de-sistemas" --login-shell=/bin/bash
