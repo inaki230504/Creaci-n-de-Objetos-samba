@@ -1,0 +1,12 @@
+#Grupo de Comite de acceso
+samba-tool group add GGComite-acceso --groupou='OU=Comite-de-acceso,OU=Departamento' --group-type=Security --group-scope=Global
+
+#Grupo de Visitas guiadas
+samba-tool group add GGVisitas-guiadas --groupou='OU=Visitas-guiadas,OU=Departamento' --group-type=Security --group-scope=Global
+
+#Procesos de evaluacion
+samba-tool group add GGProcesos-evaluacion --groupou='OU=Procesos-de-evaluacion,OU=Departamento' --group-type=Security --group-scope=Global
+
+#Grupo de Administracion de sistemas
+samba-tool group add GGAdministracion-sistemas --groupou='OU=Administracion-de-sistemas,OU=Departamento' --group-type=Security --group-scope=Global
+
