@@ -1,13 +1,13 @@
-#Ordenador Win10-01 del departamento  Comite-de-acceso
+#Ordenador Win10-01-CA del departamento  Comite-de-acceso
 samba-tool computer add Win10-01 --computerou='OU=Comite-acceso-equipos,OU=Comite-de-acceso,OU=Departamento'
 
-#Ordenador Win10-01 del departamento  Comite-de-acceso
-samba-tool computer add Win10-01 --computerou='OU=Comite-acceso-equipos,OU=Comite-de-acceso,OU=Departamento'
+#Ordenador Ubun-01-VG del departamento  Visitas-guiadas
+samba-tool computer add Ubun-01-VG --computerou='OU=Visitas-guiadas-equipos,OU=Visitas-guiadas,OU=Departamento'
 
-#Ordenador Win10-01 del departamento  Comite-de-acceso
-samba-tool computer add Win10-01 --computerou='OU=Comite-acceso-equipos,OU=Comite-de-acceso,OU=Departamento'
+#Ordenador Win11-01-PE del departamento  Procesos de evaluacion
+samba-tool computer add Win11-01-PE --computerou='OU=Procesos-evaluacion-equipos,OU=Procesos-de-evaluacion,OU=Departamento'
 
-#Ordenador Win10-01 del departamento  Comite-de-acceso
-samba-tool computer add Win10-01 --computerou='OU=Comite-acceso-equipos,OU=Comite-de-acceso,OU=Departamento'
+#Ordenador Ubun-01-AS del departamento  Administracion de sistemas
+samba-tool computer add Ubun-01-AS --computerou='OU=Administracion-sistemas-equipos,OU=Administracion-de-sistemas,OU=Departamento'
 
 
